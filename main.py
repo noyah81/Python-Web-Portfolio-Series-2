@@ -34,7 +34,12 @@ def journals():
 def quizzes():
    return render_template("quizzes.html")
 
+@app.route('/flask')
+def flask():
+  return render_template("flask.html")
+
 if __name__ == "__main__":
     #runs the application on the repl development server
     app.run(debug=True, port='5000', host='127.0.0.1')
     #KK
+    #Karam
