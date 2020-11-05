@@ -14,7 +14,7 @@ def home():
 
 
 #connect to videos page
-@app.route('/videos')
+@app.route('/video')
 def video():
     return render_template("videos.html")
 
