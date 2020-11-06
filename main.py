@@ -16,7 +16,7 @@ def home():
 #connect to videos page
 @app.route('/video')
 def video():
-    return render_template("videos.html")
+    return render_template("video.html")
 
 
 #connects to calculator page
